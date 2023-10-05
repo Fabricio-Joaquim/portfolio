@@ -7,7 +7,6 @@ export default function App() {
   return (
     <main className={styles.main}>
       <img className={styles.logo} alt="React logo" width="400px" src={Logo} />
-      <HelloWorld msg="Hello React + TypeScript + Vite" />
     </main>
   );
 }
