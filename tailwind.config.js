@@ -5,8 +5,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      width: {
+        "desktop": "1440px",
+        "mobile": "375px",
+        "tablet": "768px",
+      },
       fontFamily: {
         roboto: ["Roboto"],
+        great: ["Great Vibes"],
       },
       keyframes: {
         typing: {

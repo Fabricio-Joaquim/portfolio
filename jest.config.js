@@ -30,6 +30,9 @@ module.exports = {
     "!**/__mocks__/**",
     "!**/node_modules/**",
     "!**/*.d.ts",
+    "!**/index.ts",
+    "!**/App.tsx",
+    "!**/main.tsx",
   ],
 
   // Important: order matters, specific rules should be defined first
